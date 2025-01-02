@@ -46,8 +46,14 @@ const Inbox = () => {
         </div>
         <div className="flex items-center gap-2">
           <span>1 to 50</span>
-          <MdKeyboardArrowLeft size={"24px"} />
-          <MdKeyboardArrowRight size={"24px"} />
+          <div className="hover:bg-gray-200 rounded-full">
+            {" "}
+            <MdKeyboardArrowLeft size={"24px"} />
+          </div>
+          <div className="hover:bg-gray-200 rounded-full">
+            {" "}
+            <MdKeyboardArrowRight size={"24px"} />
+          </div>
         </div>
       </div>
 
